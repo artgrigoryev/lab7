@@ -9,4 +9,9 @@ void main()
 	int a = 12, b = 102;
 	sum = a + b;
 	cout << "Sum is " <<sum << end;
+	 
+	int diff;
+	int par1 = 29, par2 = 15;
+	diff = par1 - par2;
+	cout << "Difference between 29 and 15 is " << diff << endl;
 }
