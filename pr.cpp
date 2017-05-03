@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -14,4 +15,7 @@ void main()
 	int par1 = 29, par2 = 15;
 	diff = par1 - par2;
 	cout << "Difference between 29 and 15 is " << diff << endl;
+	
+	double expx = exp(3);
+	cout << "Exp in pow of 3 is " << expx << endl;
 }
